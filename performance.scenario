@@ -1,0 +1,5 @@
+testScenario {
+   title = "Run Help"
+   tasks = ["help"]
+   gradle-args = ["-PmyGradleProperty=hello", "-DmySystemProperty=world"]
+}
